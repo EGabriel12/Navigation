@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SecondScreen.swift
 //  Navigation
 //
 //  Created by Elias Gabriel dos Santos Correa on 07/11/24.
@@ -7,14 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SecondScreen: View {
     var body: some View {
-      NavigationStack {
-        FirstScreen()
-      }
+        Text("Second screen")
     }
 }
 
 #Preview {
-    ContentView()
+    SecondScreen()
 }

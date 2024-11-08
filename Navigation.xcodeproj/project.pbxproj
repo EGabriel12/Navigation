@@ -11,6 +11,8 @@
 		8968B8C02CDDB137004DFC37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968B8BF2CDDB137004DFC37 /* ContentView.swift */; };
 		8968B8C22CDDB139004DFC37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8968B8C12CDDB139004DFC37 /* Assets.xcassets */; };
 		8968B8C52CDDB139004DFC37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8968B8C42CDDB139004DFC37 /* Preview Assets.xcassets */; };
+		8968B8CC2CDDB1A0004DFC37 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968B8CB2CDDB1A0004DFC37 /* FirstScreen.swift */; };
+		8968B8CE2CDDB23D004DFC37 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8968B8CD2CDDB23D004DFC37 /* SecondScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8968B8BF2CDDB137004DFC37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8968B8C12CDDB139004DFC37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8968B8C42CDDB139004DFC37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8968B8CB2CDDB1A0004DFC37 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		8968B8CD2CDDB23D004DFC37 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8968B8BD2CDDB137004DFC37 /* NavigationApp.swift */,
 				8968B8BF2CDDB137004DFC37 /* ContentView.swift */,
+				8968B8CB2CDDB1A0004DFC37 /* FirstScreen.swift */,
+				8968B8CD2CDDB23D004DFC37 /* SecondScreen.swift */,
 				8968B8C12CDDB139004DFC37 /* Assets.xcassets */,
 				8968B8C32CDDB139004DFC37 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8968B8C02CDDB137004DFC37 /* ContentView.swift in Sources */,
+				8968B8CE2CDDB23D004DFC37 /* SecondScreen.swift in Sources */,
 				8968B8BE2CDDB137004DFC37 /* NavigationApp.swift in Sources */,
+				8968B8CC2CDDB1A0004DFC37 /* FirstScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
